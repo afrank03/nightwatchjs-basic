@@ -1,0 +1,17 @@
+{
+  "name": "nightwatch-basic",
+  "version": "0.5.0",
+  "description": "A basic NightwatchJs setup with chrome drive and example spec.",
+  "license": "MIT",
+  "author": {
+    "name": "Arthur Frank"
+  },
+  "scripts": {
+    "test": "nightwatch",
+    "test:chrome": "npm test -- --env chrome"
+  },
+  "devDependencies": {
+    "chromedriver": "^77.0.0",
+    "nightwatch": "^1.0.19"
+  }
+}
