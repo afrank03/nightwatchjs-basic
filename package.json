@@ -11,7 +11,7 @@
     "test:chrome": "npm test -- --env chrome"
   },
   "devDependencies": {
-    "chromedriver": "^77.0.0",
+    "chromedriver": "^81.0.0",
     "nightwatch": "^1.0.19"
   }
 }
